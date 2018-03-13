@@ -1,0 +1,26 @@
+<div class="pptxblock_block">
+    <video width="100%" id="ppt_video" poster={self.processed_video_thumb_url}  controls="controls">
+        <source src={self.processed_video_url} type="video/mp4">
+        <source src={self.processed_video_url} type="video/ogg"> Your browser does not support HTML5 video.
+    </video>
+    <p class="intro">
+        Use edit setting to add and process video URL: <span class='submited_video_url'>{self.video_url}</span>
+    </p>
+</div>
+<ul class="images">{self.thumbs_html}</ul>
+<div class="comment_box">
+    <div id="menu">
+        <p class="welcome">Comment section: <b></b></p>
+        <p class="logout"><a id="hide_chatbox" href="#">Hide comments</a></p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="chatbox"></div>
+     
+    <form class="comment_form" name="message" action="">
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Post" />
+        <div id="usermsg_div">
+        <input name="usermsg" type="text" id="usermsg" placeholder="Select a slice and them post your comment" />
+        </div>
+    </form>
+</div>
