@@ -31,7 +31,7 @@ live-server &
 
 #To install the xblock
 
-git clone https://github.com/tungsd/pptxblock2.git
+git clone https://github.com/nxkhanh09/pptslidexblock.git
 
 #edit pptxblock.py img_server_url = " vid server url", for example: img_server_url = "http://192.168.56.1:8080"
 
