@@ -37,6 +37,9 @@ git clone https://github.com/nxkhanh09/pptslidexblock.git
 
 sudo -u edxapp /edx/bin/pip.edxapp install pptslidexblock/
 
+OR
+/edx/bin/python.edxapp setup.py install
+
 sudo /edx/bin/supervisorctl restart edxapp:
 
 #Add 'pptxblock' to edx to enable it.
