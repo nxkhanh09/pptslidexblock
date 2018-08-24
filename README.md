@@ -35,7 +35,7 @@ git clone https://github.com/nxkhanh09/pptslidexblock.git
 
 #edit pptxblock.py img_server_url = " vid server url", for example: img_server_url = "http://192.168.56.1:8080"
 
-sudo -u edxapp /edx/bin/pip.edxapp install pptxblock2/
+sudo -u edxapp /edx/bin/pip.edxapp install pptslidexblock/
 
 sudo /edx/bin/supervisorctl restart edxapp:
 
